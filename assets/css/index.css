@@ -1,0 +1,93 @@
+@font-face {
+  font-family: fontMrRobot;
+  src: url('../fonts/MR_ROBOT.ttf') format('truetype'),
+        url('../fonts/MR_ROBOT.woff') format('woff');
+}
+
+
+@font-face{
+	font-family : ubuntuMono;
+    src: url('../fonts/ubuntuMono-R.ttf?raw=true') format('truetype'),
+    url('../fonts/ubuntuMono-RI.ttf?raw=true') format('truetype'),
+    url('../fonts/ubuntuMono-B.ttf?raw=true') format('truetype'),
+    url('../fonts/ubuntuMono-BI.ttf?raw=true') format('truetype')
+}
+
+html,body{
+    font-family: ubuntuMono,"monospace";
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color : white;
+}
+
+main{
+    font-family: ubuntuMono,"monospace";
+    text-align: center;
+}
+
+h1{
+    font-family: fontMrRobot;
+    color : red;
+    font-weight:normal;
+    font-size: 8em;
+    margin: 0.3em 0px 0px 0px;
+}
+
+table{
+    border : 1px solid white;
+    border-spacing: 0px;
+}
+
+table tr td{
+    border : 1px solid white;
+
+}
+
+tr:hover td {
+  background: #101011;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+
+td,th{
+    padding : 0.4em;
+}
+
+#avatar{
+    border-radius: 15em;
+    width : 20em;
+}
+
+#navigation{
+    margin : 1em 0px;
+}
+
+#sinhack_link{
+    color : white;
+}
+
+.navigation_tab{
+    font-family: fontMrRobot;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.picture_link{
+    text-decoration: none;
+    color: white;
+}
+.picture_link img{
+    width : 6em;
+}
+
+.write_up_link{
+    color: white;
+}
+
+#graph {
+	height : 80vh;
+	width : 99%;
+	border : solid white 1px;
+}
